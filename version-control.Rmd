@@ -1,0 +1,20 @@
+---
+title: "Reproducibility and automation"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+We're not covering version control today, but you should check it out!
+
+## Git and GitHub
+
+- [GitHub Desktop](https://desktop.github.com/) (This makes life with git ***so*** much easier!)
+- [Git cheet sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+- Alice Bartlett, ["Git for humans"](https://speakerdeck.com/alicebartlett/git-for-humans)
+- Jenny Bryan and Jim Hester, [*Happy Git and GitHub for the useR*](https://happygitwithr.com/)
+- Karl Broman, ["git/GitHub guide: A minimal tutorial"](https://kbroman.org/github_tutorial/)
+- Yasset Perez-Riverol, et al., ["Ten Simple Rules for Taking Advantage of Git and GitHub"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)

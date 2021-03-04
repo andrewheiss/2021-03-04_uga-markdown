@@ -1,0 +1,44 @@
+---
+title: "Reproducibility and automation"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+## Makefiles
+
+- ["Automation with `make`"](https://plain-text.co/pull-it-together.html), Section 5.1 of Kieran Healy, *The Plain Person's Guide to Plain Text Social Science*
+- Karl Broman, ["Minimal make: A minimal tutorial on `make`"](https://kbroman.org/minimal_make/)
+- [Introduction to `make`](http://www2.stat.duke.edu/~cr173/Sta523_Fa15/make_intro.html)
+
+How to install `make`:
+
+- macOS:
+    1. Run `xcode-select --install`
+- Windows: 
+    1. Install [chocolately](https://chocolatey.org/install)
+    2. Run `choco install make`
+
+## Sample Makefile
+
+*(Important! You must use tabs in Makefiles, not spaces)*
+
+```make
+# Read as "mypaper.pdf depends on mypaper.md and figures/fig1.jpg"
+mypaper.pdf: mypaper.md figures/fig1.jpg
+  pandoc mypaper.md --citeproc -o mypaper.pdf
+
+# Read as "figures/fig1.jpg depends on analysis/figs.R"
+figures/fig1.jpg: analysis/figs.R 
+  Rscript analysis/fig.R
+```
+
+## Reproducible research
+
+- Justin Kitzes, Daniel Turek, and Fatma Deniz, [*The Practice of Reproducible Research: Case Studies and LEssons from the Data-Intensive Sciences*](http://www.practicereproducibleresearch.org/)
+- Karl Broman, ["Initial steps toward reproducible research"](https://kbroman.org/steps2rr/)
+- Ben Marwick, ["rrtools: Tools for Writing Reproducible Research in R"](https://github.com/benmarwick/rrtools)
+- Anna Krystalli, ["Creating a research compendium w/ `rrtools`](https://annakrystalli.me/rrresearch/10_compendium.html)

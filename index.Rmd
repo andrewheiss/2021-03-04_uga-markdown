@@ -1,0 +1,57 @@
+---
+title: "Unpacking the hidden curriculum"
+---
+
+```{css, echo=FALSE}
+.section h2 {
+    padding-top: 94px;
+    margin-top: -71px;
+}
+
+.title {
+    display: none
+}
+```
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# **Universal documents and reproducibility**
+
+**Andrew Heiss**  
+Andrew Young School of Policy Studies • Georgia State University  
+[andrewheiss.com](https://www.andrewheiss.com) • [\@andrewheiss](https://twitter.com/andrewheiss)
+
+---
+
+<small>Unpacking the Hidden Curriculum  
+EPID 9100 PhD/MS Seminar, Spring 2021  
+Department of Epidemiology & Biostatistics • University of Georgia  
+March 4, 2021</small>
+
+---
+
+Welcome to this workshop on Markdown and reproducibility!
+
+Use the top menu to see different resources and guides.
+
+Download materials to play along with here:
+
+<p><a class="btn btn-info btn-lg" target="_blank" href="markdown-playground.zip"><i class="fas fa-external-link-alt"></i> markdown-playground.zip</a></p>
+
+You can view and download [the Markdown source for this whole website at GitHub](https://github.com/andrewheiss/2021-03-04_uga-markdown).
+
+</div>
+
+<div class="col-sm-6">
+
+```{r echo=FALSE}
+knitr::include_graphics("slides/img/md-to-everything.png")
+```
+
+```{r echo=FALSE}
+knitr::include_graphics("slides/img/md-outputs.png")
+```
+
+</div>
+</div>

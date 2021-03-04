@@ -1,0 +1,11 @@
+---
+title: "Slides"
+---
+
+<p><a class="btn btn-info btn-lg" target="_blank" href="slides/universal-writing-reproducibility.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-info btn-lg" target="_blank" href="slides/universal-writing-reproducibility.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "slides/universal-writing-reproducibility.html", ratio = "16:9")
+```
+
+View the [R Markdown source for the slides at GitHub](https://github.com/andrewheiss/2021-03-04_uga-markdown).

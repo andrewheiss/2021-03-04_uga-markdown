@@ -1,0 +1,28 @@
+name: "universal-documents"
+navbar:
+  title: "Universal documents"
+  left:
+    - text: ""
+      icon: fa-home
+      href: index.html
+    - text: "Slides"
+      href: slides.html
+    - text: "Plain text writing"
+      href: writing.html
+    - text: "Markdown"
+      menu:
+        - text: "Markdown guide and resources"
+          href: markdown.html
+        - text: "Markdown editor"
+          href: markdown-editor.html
+        - text: "R Markdown"
+          href: rmarkdown.html
+    - text: "Reproducibility and automation"
+      href: reproducibility-automation.html
+    - text: "Git"
+      href: version-control.html
+output:
+  html_document:
+    theme: flatly
+    include:
+      after_body: html/footer.html

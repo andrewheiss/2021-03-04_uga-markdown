@@ -1,0 +1,73 @@
+---
+title: "Plain text writing"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+## Writing in general
+
+- Kieran Healy, [*The Plain Person's Guide to Plain Text Social Science*](https://plain-text.co/)
+
+
+## Example papers
+
+- [Paper written with regular Markdown](https://www.andrewheiss.com/research/heiss-2019-taking-control/) (with figures generated in R)
+    - [Markdown file](https://raw.githubusercontent.com/andrewheiss/taking-control-of-regulations/master/manuscript/taking-control-of-regulations.md)
+    - [PDF output](https://www.andrewheiss.com/files/research/2019-heiss-taking-control-of-regulations.pdf)
+    - [R analysis notebook](https://stats.andrewheiss.com/taking-control-of-regulations/analysis.html)
+    - [GitHub repository](https://github.com/andrewheiss/taking-control-of-regulations)
+
+- [Paper written with R Markdown](https://www.andrewheiss.com/research/chaudhry-heiss-ngos-philanthropy/)
+    - [R Markdown file](https://raw.githubusercontent.com/andrewheiss/ngo-crackdowns-philanthropy/master/manuscript/manuscript.Rmd)
+    - [PDF output](https://www.andrewheiss.com/files/research/chaudhry-heiss-ngos-philanthropy.pdf)
+    - [R analysis notebook](https://stats.andrewheiss.com/ngo-crackdowns-philanthropy/)
+    - [GitHub repository](https://github.com/andrewheiss/ngo-crackdowns-philanthropy)
+
+
+## Text editors
+
+### Edit literally any kind of file
+
+- [Visual Studio Code](https://code.visualstudio.com/): Free! Has a billion extensions and supports a billion languages (like R, Stata, etc.)
+- [Sublime Text](https://www.sublimetext.com/): Not free! Also has a ton of extensions and lanugage support
+- [emacs](https://en.wikipedia.org/wiki/Emacs) / [vim](https://en.wikipedia.org/wiki/Vi): Free and powerful, but ancient and terrifying
+
+### Markdown-specific editors
+
+macOS and Windows:
+
+- [Typora](https://typora.io/): Free for now. I use this all the time.
+- [Visual Studio Code](https://code.visualstudio.com/): Free. I also use this all the time. Follow the ["Markdown and Visual Studio Code" guide](https://code.visualstudio.com/docs/languages/markdown)
+
+macOS only:
+
+- [MacDown](https://macdown.uranusjr.com/): Free
+- [Ulysses](https://ulysses.app/): Not free. I use this all the time. Great for larger documents (like articles, dissertations, books)
+
+Windows only:
+
+- [MarkdownPad](http://markdownpad.com/): Free
+- [Caret](https://caret.io/): Not free
+
+
+### Run stats and write Markdown
+
+- [RStudio](https://rstudio.com/): Free, great for working with R Markdown. The [beta of v1.4](https://rstudio.com/products/rstudio/download/preview/) supports [live previewing](https://blog.rstudio.com/2020/09/30/rstudio-v1-4-preview-visual-markdown-editing/) ([complete details here](https://rstudio.github.io/visual-markdown-editing/#/))
+
+
+## Pandoc
+
+- [Pandoc manual](https://pandoc.org/MANUAL.html)
+- The [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref) filter for dealing with cross references
+
+
+## Citations
+
+- [Main database of downloadable citation styles](https://www.zotero.org/styles)
+- [Zotero for macOS and Windows](https://www.zotero.org/)
+- [BibDesk for macOS](https://bibdesk.sourceforge.io/)
+- [JabRef for Windows](https://www.jabref.org/)

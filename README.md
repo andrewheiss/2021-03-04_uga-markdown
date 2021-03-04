@@ -1,0 +1,18 @@
+
+# Universal documents and reproducibility
+
+[Andrew Heiss, PhD](https://www.andrewheiss.com)  
+Andrew Young School of Policy Studies  
+Georgia State University
+
+EPID 9100 PhD/MS Seminar, Spring 2021  
+Department of Epidemiology & Biostatistics • University of Georgia
+
+March 4, 2021
+
+------------------------------------------------------------------------
+
+## Slides and resources
+
+Access [all the slides and additional resources
+here](https://talks.andrewheiss.com/2021-03-04_uga-markdown/).

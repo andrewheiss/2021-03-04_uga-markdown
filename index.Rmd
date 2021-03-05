@@ -1,5 +1,5 @@
 ---
-title: "Unpacking the hidden curriculum"
+title: "Universal documents and reproducibility"
 ---
 
 ```{css, echo=FALSE}
@@ -24,8 +24,7 @@ Andrew Young School of Policy Studies • Georgia State University
 
 ---
 
-<small>Unpacking the Hidden Curriculum  
-EPID 9100 PhD/MS Seminar, Spring 2021  
+<small>EPID 9100 PhD/MS Seminar, Spring 2021  
 Department of Epidemiology & Biostatistics • University of Georgia  
 March 4, 2021</small>
 
